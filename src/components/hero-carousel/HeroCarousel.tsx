@@ -21,7 +21,7 @@ export function HeroCarousel({ movies }: Props) {
 
 
   return (
-    <ul className="relative w-full h-[80vh] overflow-hidden">
+    <ul className="relative w-full min-h-screen overflow-hidden">
       {movies.map((movie: IMovie, i) => <HeroSlide key={movie.id} movie={movie} isActiveMovie={activeIndex === i} />)}
     </ul>
   )

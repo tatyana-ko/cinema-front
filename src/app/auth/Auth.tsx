@@ -1,7 +1,7 @@
 export function Auth() {
   return (
     <div>
-      Auth
+      Auth page
     </div>
   )
 }

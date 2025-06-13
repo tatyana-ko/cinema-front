@@ -1,9 +1,11 @@
-import { Hero } from "../hero-carousel/Hero";
+import { Hero } from '../hero-carousel/Hero';
+import { WatchNow } from '../movies/WatchNow';
 
 export function MainContent() {
-  return (
-    <main>
-      <Hero />
-    </main>
-  )
+	return (
+		<main>
+			<Hero />
+			<WatchNow />
+		</main>
+	);
 }
